@@ -1,0 +1,42 @@
+{
+  "name": "brivima",
+  "version": "1.0.0",
+  "description": "brivima node and mongodb backend",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "backend",
+    "service"
+  ],
+  "author": "Airewamhe victor",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^15.0.4",
+    "@angular/core": "^15.0.3",
+    "@angular/fire": "^7.5.0",
+    "@angular/material": "^15.0.3",
+    "@angular/platform-browser": "^15.0.4",
+    "@angular/router": "^15.0.4",
+    "@ng-bootstrap/ng-bootstrap": "^14.0.0",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.12",
+    "newsapi": "^2.4.1",
+    "nodemon": "^2.0.13",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.0.4"
+  }
+}
